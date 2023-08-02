@@ -1,0 +1,64 @@
+.taskForm {
+    position: relative;
+    top: -30px;
+    display: grid;
+    grid-template-columns: 700px 1fr;
+    gap: 0.72rem;
+}
+
+.taskForm>input {
+    width: 100%;
+    height: 3.4rem;
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--white);
+}
+
+.taskForm>button {
+    width: 5.6rem;
+    height: 3.2rem;
+    background-color: var(--blue-dark);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    color: var(--white);
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+.taskForm>button:hover {
+    background-color: var(--blue);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 18rem;
+    margin: 2rem 0;
+}
+
+.initState {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.initState>img {
+    margin-bottom: 1rem;
+}
+
+.contentTasks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+    width: 100%;
+}

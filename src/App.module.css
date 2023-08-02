@@ -1,0 +1,21 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 50rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+
+@media(max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}

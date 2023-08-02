@@ -1,0 +1,59 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.createdTasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createdTasks strong {
+    color: var(--blue);
+    font-size: 1.1rem;
+    margin-right: 0.75rem;
+}
+
+.createdTasks span {
+    color: var(--white);
+    width: 25px;
+    height: 25px;
+    background-color: var(--gray-400);
+    border: 1px solid var(--gray-400);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-right: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.completedTasks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.completedTasks strong {
+    color: var(--purple);
+    font-size: 1.1rem;
+    margin-right: 0.75rem;
+}
+
+.completedTasks span {
+    color: var(--white);
+    width: 25px;
+    height: 25px;
+    background-color: var(--gray-400);
+    border: 1px solid var(--gray-400);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-right: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
